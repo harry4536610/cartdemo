@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width//螢幕寬度, initial-scale=1//縮放比例, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/product.css" >
+	<link rel="stylesheet" href="css/footer.css" >
+	<title>postcard</title>
+	<a href="#">
+		<img id="gotop" src="icon/top.png" width="30px" height="30px" >
+	</a>
+	
+</head>
+<body>
+	<header class="row">
+		<div class="col-md-1"><a href="index.html"><img src="icon/home.png" class="user"></a></div>
+		<div class="col-md-1"><a href="cart.html"><img src="icon/cart.png" class="user" ></a></div>
+		<div class="col-md-7"><img src="img/logo.png" class="logo"></div>		
+		<div class="col-md-3">
+			<div class="row">
+            	<div class="col-md-3"></div>
+            	<div class="col-md-9">xx hello!<input type="button" name="logout" value="Logout" class="out"></div>
+            </div>
+            <img src="icon/search.png" class="search">
+			<form action="search.jsp" method="post">
+			<input type="text" name="search" size="10" placeholder="search" class="search">    <!-- float是由右至左排序 -->
+  		</form></div>   		
+	</header>
+ <nav class="row"> 
+  <div id="nav">
+      <ul class="col-md-12">
+    <li id="droptown"><a href="allstore.html" id="dropbtn">Products</a>
+    <div id="dropmenu">
+     <a href="sticker.html">Sticker</a> <br>
+     <a href="pjurassic.html">Pin</a> <br>
+     <a href="postcard.html">Postcard</a> <br>
+    </div>
+    </li>
+       <li id ="droptown"><a href="member.html" id="dropbtn">Member</a>
+       <div id="dropmenu">
+     <a href="login.html" >Login</a> <br>
+     <a href="register.html" >Register</a> <br>
+    </div>
+       </li>
+       <li><a href="range.html" class="dropbtn">Leader Board</a></li>
+       <li><a href="message.html" class="dropbtn">Message Board</a></li>
+       <li id="droptown"><a href="memintro.html" id="dropbtn">About Us</a>
+       <div id="dropmenu">
+     <a href="brandintro.html" >Design concept</a> <br>
+     <a href="memintro.html" >Member Introduction</a> <br>
+    </div>
+    </li>
+   </ul>
+  </div>
+ </nav>
+	<!-- container -->
+	<div class="col-md-12"><br></div>
+	<div class="container">
+	    
+	    <!-- content -->
+	    <content class="row">
+	    	<!-- aside -->
+	    	<aside class="col-md-7">
+	    		<script type="text/javascript"> 
+                    function pro_img(a){
+	                var id = a;
+	                document.getElementById("image").src ='img/postcard'+ id + '.jpg';
+                     }
+ 
+                </script>
+	    		<img id="image" width=420 height=360 onclick='pro_img()' src='img/postcard4.jpg' / class="pro"><br><br>
+	    		<img  width=60 height=60 onclick='pro_img(4)' src='img/postcard4.jpg' /class="pros">
+                <img  width=60 height=60 onclick='pro_img(3)' src='img/postcard3.jpg' /class="pros">
+                <img  width=60 height=60 onclick='pro_img(7)' src='img/postcard7.jpg' /class="pros">
+		    </aside>
+	    	<!-- /aside -->
+	    	<!-- main -->
+           
+	    	<main class="col-md-5">
+	    		 <img src="img/pin0.png" class="pin" >
+	    		 <div class="col-md-12"><br></div>
+	    		<div class="col-md-12">
+	    			<h2>大鯨魚小親親</h2><hr>
+	    			<h3> [商品介紹]<br><br>你不要害怕，
+                    雖然生活這片海很大<br>
+                    但你知道的，
+                    我會陪你游過這驚濤駭浪。</h3><br>
+                    <h3> [商品資訊]<br><br>
+                          商品材質：象牙紙 防水材質<br>
+                          大小：約14.8×10.5<br>
+                          商品產地：台灣<h3>
+	    			<h4>售價：$35 <br>庫存：<input type="text" name="庫存" value="" size="5" id="text"/></h4><br>
+
+	    			
+	    		</div>
+		        <div class="col-md-12" align="right">
+		        	<input type="button" name="submit" value="加入購物車" class="button" onclick=""><br>
+		        	<h6.ph>瀏覽次數：<input type="text" name="number" value="" size="5" id="text"/></h6>
+		        </div>	    	
+	    	</main>
+	    	<!-- /main -->
+	    	<!-- meg -->
+	        <meg class="col-md-12">
+	        	<hr>
+	    	    <opt><textarea name="note" placeholder="leave a message..."></textarea></opt>
+	    	    <div class="row">
+	    	    	<div class="col-md-8">
+	    	    	    <h2 class="m">Name&nbsp; <opt><input type="text" name="name" size="10" class="text"></opt></h2><br>
+	        	        <h2 class="m">E-Mail&nbsp; <opt><input type="email" name="email" class="text"></opt></h2>
+	        	    </div>
+	    	    	<div class="col-md-4">	    		    
+	        	        <input type="button" name="submit" value="Send" class="send">
+	        	    </div>	    	
+	    	    </div>
+	    	</meg>
+	        <!-- /meg -->
+	    	<!-- message -->
+	    	<message class="col-md-12">
+	    	<hr>
+
+
+
+
+	    	</message>
+	        <!-- message -->
+	    </content>
+	    <!-- /content -->
+	</div>
+	<!-- /container -->
+	<!-- footer -->
+	<footer class="row">
+	    <div class="col-md-2" id="cont"><h4 class="footer">PRODUCTS</h4><p><a href="sticker.html" class="href">sticker</a><br><a href="pin.html" class="href">pin</a><br><a href="postcard.html" class="href">postcard</a></p></div>	  
+	    <div class="col-md-2" id="cont"><h4 class="footer">MEMBER</h4><p><a href="login.html" class="href">login</a><br><a href="register.html" class="href">register</a><br><a href="Modify.html" class="href">modify</a></p></div>	    
+	    <div class="col-md-2" id="cont"><h4 class="footer">MESSAGE</h4><p><a href="message.html" class="href">message board</a></p></div>	  
+	    <div class="col-md-2" id="cont"><h4 class="footer">ABOUT US</h4><p><a href="brandintro.html" class="href">design concept</a><br><a href="memintro.html" class="href">member introduction</a></p></div>	    
+	    <div class="col-md-4" id="cont">
+	    	<h4 class="footer">CONNET US</h4>
+	    	<center>
+	    	<a href="https://www.facebook.com/profile.php?id=100000445410466"><img src="icon/man.png" class="icon"></a>
+	    	<a href="https://www.facebook.com/lin.erica.1"><img src="icon/girl.png" class="icon"></a>
+	    	<a href="https://www.facebook.com/tian.cai.3154"><img src="icon/boy.png" class="icon"></a>
+	    	<a href="https://www.facebook.com/profile.php?id=100002970368977"><img src="icon/man1.png" class="icon"></a>
+	        </center>
+	    </div>
+		<div class="col-md-12"><h6 class="footer">Copyright © 2018-All Right Reserved. Design and Developed By MOUSEPI.</h6></div>
+
+	</footer>
+	<!-- /footer -->
+
+
+
+	<!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+
+
+            <script>
+            	$(function() {
+            		/* 按下GoTop按鈕時的事件 */
+            		$('#gotop').click(function(){
+            			$('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+            			return false;
+            	    });
+            	/* 偵測卷軸滑動時，往下滑超過200px就讓GoTop按鈕出現 */
+            	$(window).scroll(function() {
+            	    if ($(this).scrollTop()>200){
+            	        $('#gotop').fadeIn();
+                    } 
+                    else{
+                    	$('#gotop').fadeOut();
+                    }
+                });
+            });
+            </script>	     
+</body>
+</html>
