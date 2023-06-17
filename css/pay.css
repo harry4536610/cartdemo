@@ -1,0 +1,265 @@
+﻿body{
+    background-color: #FFEE99;
+}
+header{
+    height:100px;
+    background-color: #FFDD55;
+}
+img.logo{
+	height:100px;
+    display:block;
+	margin:auto;
+	z-index:100;
+}
+img.little{
+    height:250px;
+}
+img.home{
+    height: 40px;
+    position:absolute;
+    top:50%;
+    margin-left:15%;
+}
+img.cart{
+    height: 40px;
+    position:absolute;
+    top:50%;
+    margin-left:55%;
+}
+img.out{
+    height: 40px;
+}
+img.search{
+    height: 40px;
+    position:absolute;
+    top:50%;
+    left:5%;
+}
+button.out{  
+    text-decoration: underline;  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    position:absolute;
+    top:50%;
+    left:15%;
+    background-color:#FFDD55;
+
+}
+h1{
+    font-size:18px;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    color:#ac3f21;
+    position:absolute;
+    top:65%;
+    left:60%;
+    z-index: 100;
+    width:200px;
+
+}
+input.search{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 75%;
+    position:absolute; 
+    top:50%;
+    left:20%;
+}
+button.out{  
+    text-decoration: underline;  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    position:absolute;
+    top:50%;
+    left:20%;
+    background-color:#FFDD55;
+}
+input.search{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 80%;
+    position:relative; 
+    margin-top:20%;
+    left:20%;
+}
+img.process{
+    height:60px;
+    position: relative;
+    top:20%;
+    opacity:0.9;
+}
+img.process:hover{
+    height:80px;
+    position: relative;
+    top:20%;
+    opacity:1;
+}
+#nav{
+    height:50px;
+    font-size: 16pt;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+    height: 8%;
+    color:  #fdffff;
+    background-color:#00AA88;
+    font-size: 20px;
+    margin: 0;
+    overflow: left;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+}
+a{
+    color: #ac3f21;
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;  
+    height: 8%;
+    padding-left:34%;
+}
+
+#nav ul li {
+    list-style-type:none;
+    float: left;
+    position: relative;
+    height: 8%;
+}
+
+
+#nav ul li a ,#dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{                /*觸控變色*/
+    background-color: #ffff;
+    color:#00AA88;
+    opacity: 0.85;
+}
+#nav ul li a:active {
+    background-color: #4CAF50;
+}
+#dropmenu {
+    display: none;
+    position:absolute;
+    background-color: #00AA88;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);     /*陰影*/
+    z-index: 5;
+}
+
+#dropmenu a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width:100%;
+}
+#droptown:hover #dropmenu{    /*下拉式選單出現*/
+    display: block;
+    opacity: 0.7;
+}
+div.container{
+    background-color: #FFFFBB;
+}
+main{
+    height:100px;
+}
+content{
+    height:600px;
+}
+table,th,td{  
+    border:1px solid #FFFFBB; 
+}
+th{
+    font-size: 18pt;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    text-align: left;
+    color:#532187;
+}
+h2{
+	margin-top:60px;
+	text-align:center;
+	font-size: 22pt;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+
+    color:#532187;
+}
+img{
+    height:70px;
+    position:relative;
+    left:5%;
+}
+#text{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width:35%;
+}
+input.button
+{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    font-family: Lucida Sans Unicode;
+    background: #FF7744;
+    position:relative;
+    top:50%;
+    left:65%;
+    margin-top:20px;
+    margin-left:25px;
+}
+
+h3{
+    font-size: 16pt;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    text-align: left;
+    color:#532187;
+}
+h5{
+    height:50px;
+    font-size: 38pt;
+    font-family: 微軟正黑體;
+    font-weight:bold;
+    text-align:center;
+    color:#FF7744;
+    margin-top:10%;
+    margin-left: 5%;
+    text-align: left;
+}
+input.radio{
+	border:0px;
+	margin-left:10px;
+	margin-right:10px;
+	width:10%;
+	height:1em;
+}
+#text{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width:400px;
+}

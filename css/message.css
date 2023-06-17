@@ -1,0 +1,242 @@
+﻿body{
+    background-color:  #FFEE99;
+}
+header{
+    height:100px;
+    background-color: #FFDD55;
+}
+img.logo{
+	height:100px;
+    display:block;
+	margin:auto;
+	z-index:100;
+}
+img.little{
+    height:250px;
+}
+img.home{
+    height: 40px;
+    position:absolute;
+    top:50%;
+    margin-left:15%;
+}
+img.cart{
+    height: 40px;
+    position:absolute;
+    top:50%;
+    margin-left:55%;
+}
+img.out{
+    height: 40px;
+}
+img.search{
+    height: 40px;
+    position:absolute;
+    top:50%;
+    left:5%;
+}
+input.search{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 75%;
+    position:absolute; 
+    margin-top:22%;
+    left:20%;
+}
+button.out{  
+    text-decoration: underline;  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    position:absolute;
+    margin-top:42%;
+    background-color:#FFDD55;
+
+}
+h1{
+    font-size:18px;
+    font-family:微軟正黑體;
+    font-weight:bold;
+    color:#ac3f21;
+    position:absolute;
+    margin-top:56%;
+    left:60%;
+    z-index: 100;
+    width:200px;
+
+
+}
+img.process{
+    height:60px;
+    position: relative;
+    top:20%;
+}
+td{
+    width: 40%;
+    font-size:22pt;
+    font-family:Lucida Sans Unicode;
+    color:#341258;
+}
+input{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 130px;
+}
+textarea{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+#nav{
+    height:50px;
+    font-size: 16pt;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+    height: 8%;
+    color:  #fdffff;
+    background-color:#00AA88;
+    font-size: 20px;
+    margin: 0;
+    overflow: left;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+}
+a{
+    color: #ac3f21;
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;  
+    height: 8%;
+    padding-left:34%;
+}
+
+#nav ul li {
+    list-style-type:none;
+    float: left;
+    position: relative;
+    height: 8%;
+}
+
+
+#nav ul li a ,#dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{                /*觸控變色*/
+    background-color: #ffff;
+    color:#00AA88;
+    opacity: 0.85;
+}
+#nav ul li a:active {
+    background-color: #4CAF50;
+}
+#dropmenu {
+    display: none;
+    position:absolute;
+    background-color: #00AA88;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);     /*陰影*/
+    z-index: 5;
+}
+
+#dropmenu a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width:100%;
+}
+#droptown:hover #dropmenu{    /*下拉式選單出現*/
+    display: block;
+    opacity: 0.7;
+}
+div.container{
+    background-color: #FFFFBB;
+}
+input.button{
+    width: 25%;
+    height: 50%;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    font-family: Lucida Sans Unicode;
+    background: #FF7744;
+    position: relative;
+    margin-left: 50%;
+}
+
+#text{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width:53%;
+}
+#opt{
+    width:35px;
+}
+main{
+    height:100px;
+}
+content{
+    height:700px;
+}
+form{
+    position: relative;
+    margin-left: 5%;
+    background-color: #FFFFBB;
+}
+img{
+    height:150px;
+}
+h2{
+    font-size: 16pt;
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+    text-align: left;
+    color:#532187;
+}
+opt{
+    font-size: 16pt;
+    font-family: 微軟正黑體;
+    text-align: left;
+    color:#532187;
+}
+h3{
+
+}
+h4{
+    font-size:10pt;
+    font-family:Lucida Sans Unicode;
+    font-weight: bold;
+    text-align:center;
+    color:#341258;
+}
+h5{
+    font-size: 38pt;
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+    text-align:center;
+    color:#FF7744;
+    margin-top:10%;
+    margin-left: 5%;
+    text-align: left;
+}
